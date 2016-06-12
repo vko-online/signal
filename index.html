@@ -1,0 +1,38 @@
+<html>
+<body>
+<button onclick="show()">show</button>
+<button onclick="hide()">hide</button>
+<script src="signal.js"></script>
+<script>
+    var signal = new Signal({
+        text: 'my super notification',
+        btns: [
+            {
+                text: 'say hello',
+                action: function () {
+                    alert('hello!');
+                }
+            },
+            {
+                text: 'close',
+                action: function () {
+                    signal.hide();
+                }
+            }
+        ]
+    });
+
+    setTimeout(function () {
+        signal.show();
+    }, 2000);
+
+    function show() {
+        signal.show();
+    }
+    function hide() {
+        signal.hide();
+    }
+
+</script>
+</body>
+</html>
