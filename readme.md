@@ -3,7 +3,7 @@
 
 responsive, no dependency, tiny, sexy
 
-![notif bar](http://i.imgur.com/5r5OKfj.png)
+![notif bar](https://pbs.twimg.com/media/Ckw7_B6XIAAsT-s.jpg)
 
 ## Demo
 http://codepen.io/vko-online/pen/bepEva?editors=1010
